@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background:#fff;
+    color: white;
+    font-family: Arial;
+
+}
+
+.container{
+    width:100%;
+    max-width: 400px;
+    background: rgb(25, 25, 25);
+    margin:100px auto 20px;
+    padding: 50px 30px 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    border:2px solid #f4f0f0
+}
+
+.emoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.js-result {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border:1px solid #fff;
+    padding: 5px;
+    font-size: 2px;
+
+}
+
+.js-moves{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.js-score{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+    
+
+
+}
+.move-icon {
+    height: 50px;
+
+}
+
+.move-btn {
+    background: transparent;
+    border: 3px solid white;
+    width: 120px;
+    height: 120px;
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.results {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+.score{
+    margin-top: 60px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.reset-score-button{
+    background: white;
+    border: none;
+    font-size: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
